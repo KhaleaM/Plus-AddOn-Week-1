@@ -3,14 +3,14 @@ function cityTime(event) {
     alert(
       moment()
         .tz("Europe/Paris")
-        .format("[It is] dddd, MMMM Do, YYYY h:m A [in Europe/Paris]"),
+        .format("[It is] dddd, MMMM Do, YYYY H:mm A [in Europe/Paris]"),
     );
   }
   if (event.target.value === "sydney") {
     alert(
       moment()
         .tz("Australia/Sydney")
-        .format("[It is] dddd, MMMM Do, YYYY h:m A [in Australia/Sydney]"),
+        .format("[It is] dddd, MMMM Do, YYYY H:mm A [in Australia/Sydney]"),
     );
   }
   if (event.target.value === "tokyo") {
